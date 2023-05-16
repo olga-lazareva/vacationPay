@@ -1,0 +1,20 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рассчет отпускных</title>
+</head>
+<body>
+    <div>
+        <form id="salary-form" action="/calculate">
+            <label>Введите среднюю зарплату:</label>
+            <input type="text" name="salary" value={{salary}}><br>
+            <label>Введите количество дней отпуска:</label>
+            <input type="text" name="numberOfDays" value={{numbers}}>
+            <hr>
+            <button id="calculate">Рассчитать отпускные</button>
+            <hr>
+            <div>{{result}}</div>
+        </form>
+    </div>
+</body>
+</html>
